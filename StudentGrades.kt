@@ -22,4 +22,9 @@ fun main() {
 
     println("- Tổng điểm: $total")
     println("- Điểm trung bình: $average")
+    val maxScore = maxOf(math, programming, database)
+    val isPassed = average >= 5.0
+
+    println("- Điểm cao nhất: $maxScore")
+    println("- Sinh viên có đạt không?: ${if (isPassed) "Có (Đạt)" else "Không (Trượt)"}")
 }
