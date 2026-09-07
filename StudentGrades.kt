@@ -17,4 +17,9 @@ fun main() {
 
     println("\n--- Kết quả ---")
     println("Sinh viên: $hoTen - STT: $stt")
+    val total = math + programming + database
+    val average = total / 3.0
+
+    println("- Tổng điểm: $total")
+    println("- Điểm trung bình: $average")
 }
